@@ -1,10 +1,12 @@
 import React from 'react'
 import Head from './Header'
+import  Cardliveauction from "./Card"
 
 export default function App() {
   return (
     <div>
       <Head/>
+      <Cardliveauction/>
     </div>
   )
 }

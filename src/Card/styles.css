@@ -1,0 +1,54 @@
+.card-cont{
+   width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.card-img-container{
+     width: 40%;
+    height:400px
+}
+.abc{
+    width: 600px;
+}
+.card-sndsc{
+    width:50%;
+
+}
+.view-div{
+    height:100px;
+}
+.card-text-fex{
+    display: flex;
+    justify-content:space-around;
+}
+.card-btn-al{
+    height: 80px;
+    margin: top 10px;
+    transition: all 300ms cubic-bezier(0.23,1,0.32,1);
+}
+.card-btn{
+    text-align: right;
+    margin-top:30px;
+    width: 160px;
+    height: 40px;
+     border-radius: 25px;
+}
+.btn-ownr-name{
+    text-align: right;
+    margin-top:30px;
+    width: 160px;
+    height: 40px;
+     border-radius: 25px;
+     transition: all 300ms cubic-bezier(0.23,1,0.32,1);
+}
+.card-tite{
+    height: 70px;
+}
+.btn-view-art{
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius:15px;
+    transition: all 300ms cubic-bezier(0.23,1,0.32,1);
+}
