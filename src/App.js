@@ -1,66 +1,25 @@
 import React from 'react'
 import Head from './Header'
 import  Cardliveauction from "./Card"
-
+import Carduser from "./Carduser"
+import Apidata from "./fatchedapi"
+import {Secondapi} from "./fatchedapi"
+import './App.css';
 export default function App() {
   return (
     <div>
       <Head/>
       <Cardliveauction/>
+      <div>
+        <div className=" divider-campo"> 
+          <h5> Live Auction</h5>
+          <h5> View All live Auction</h5>
+        </div>
+        <hr/>
+      </div>
+      <Carduser/>
+      <Apidata/>
+      <Secondapi/>
     </div>
   )
 }
-
-
-
-// import React  ,{useState, useEffect} from 'react'
-// import Homedata from './Api'
-// import {Bothdata} from  './Api'
-// import './App.css';
-// import Head from "./Header"
-// export const   Secondapi =()=> {
-//   useEffect(() => {  
-//     storedata();
-//   }, [])
-//   const [data , setdata] = useState([]);
-//   const storedata = async()=>{
-//     const retrieve = await Bothdata()
-//     setdata(retrieve);
-//     console.log(retrieve)
-//   }
-//    return(
-//      <div></div>
-//    )
-// }
-
-//   const Apidata = ()=> {
-//     useEffect(() => {
-//       catchdata();
-    
-//     }, [])
-//     const[home , sethome] = useState([]);
-//     const catchdata = async()=>{
-//       const get = await Homedata();
-//       sethome(get);
-//       console.log(get)
-//     }
-//     return (
-//       <div className="">
-        
-  
-  
-//       </div>
-//     );
-  
-
-//   }
- 
-// export default Apidata ;
-
-// // export default function App() {
-// //   return (
-// //     <div>
-      
-// //     </div>
-// //   )
-// // }

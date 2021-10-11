@@ -1,12 +1,12 @@
 import React from 'react'
 import "./styles.css"
-import  logo from "../assests/logoal.png"
+
   const Cardliveauction =()=>{
     return (
         <>
             <div className="card-cont">
                 <div className="card-img-container"> 
-                <img className="img-logo" src={logo}  alrt="hello this is card"/>       
+                <img className="img-pic" src="http://safeart.alshumaal.com/assets/profile/pic/img  (5).jpg"  alrt="hello this is card"/>       
                 </div>
                 <div className="card-sndsc">
                     <div className="card-btn-al">
@@ -22,7 +22,7 @@ import  logo from "../assests/logoal.png"
                         <hr/>
                         <div>
 
-                            <h4> owner  by</h4>
+                            <h2> owner  by</h2>
                             <button className="card-btn"> als---sirang</button>
                         </div>
 
