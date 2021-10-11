@@ -2,13 +2,26 @@
     margin-top: 10px;
     margin-left: 10px;
     width: 300px;
-    height: 500px;
+    height: 380px;
     border: 1px black; 
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;} 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius:10px; }
+   
     .img-cont{
+         border-top-left-radius: 10px;
+
+         border-top-right-radius: 10px;
         overflow: hidden;
         height: 30%;
         
+    }
+    .pic-profile{
+        width:70px;
+        height:70px;
+        border-radius:50%;
+    }
+    .pro-ifo{
+        display: flex;
     }
     .card-text{
         display: flex;
@@ -21,4 +34,11 @@
     .img-card{
         width: 300px;
         
+    }
+    .card-end-text{
+        text-align: center;
+
+    }
+    .title-card{
+        text-align: center;
     }
